@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+read -p "Please enter name of new Script : " scriptName
+read -p "Please enter the scripte line : " scriptLine
+echo "#!/bin/bash" > $scriptName
+echo "$scriptLine" >> $scriptName
+
+
+echo "operation done !!"
